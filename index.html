@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--____________________
+  link to style.css
+  _____________________-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--____________________
+  link to responsive.css
+  _____________________-->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!--____________________
+  google font link
+  _____________________-->
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!--____________________
+  google font link
+  _____________________-->
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <title>Book Aura</title>
+</head>
+<body>
+  <!--____________________
+  header
+  _____________________-->
+  <header>
+
+    <div class="head-box head-box-1">
+      <a href="#">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-heart"></i>
+        Saved
+      </a>
+    </div>
+
+    <div class="head-logo">
+      <h1>
+        <a href="#">
+          Book
+          <span>
+            Aura
+          </span>
+        </a>
+      </h1>
+    </div>
+
+    <div class="head-box head-box-2">
+      <button class="log-btn">
+        <a href="#">
+          Log in
+        </a>
+      </button>
+      <button class="sign-btn">
+        <a href="#">
+          Sign up
+        </a>
+      </button>
+      
+    </div>
+
+  </header>
+
+  <!--____________________
+  navbar
+  _____________________-->
+  <nav>
+
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href="#home" class="nav-links">Home</a>
+        </li>
+        <li class="catagories">
+
+          <a href="#best-sellers" class="nav-links">Catagories</a>
+
+          <div class="catagories-dropdown">
+            <a href="pages/fiction/index.html" class="cata-drop-links">
+              Fiction
+            </a>
+            <a href="pages/non-fiction/index.html" class="cata-drop-links">
+              Non-Fiction
+            </a>
+            <a href="pages/mystery/index.html" class="cata-drop-links">
+              Mystery
+            </a>
+            <a href="pages/romance/" class="cata-drop-links">
+              Romance
+            </a>
+            <a href="pages/sci-fi/index.html" class="cata-drop-links">
+              Sci-Fi
+            </a>
+            <a href="pages/fantasy/index.html" class="cata-drop-links">
+              Fantasy
+            </a>
+            <a href="pages/biographies/index.html" class="cata-drop-links">
+              Biographies
+            </a>
+            <a href="pages/children-books/" class="cata-drop-links">
+              Children's Books
+            </a>
+          </div>
+          
+        </li>
+        <li>
+          <a href="#daily-deals" class="nav-links">Daily deals</a>
+        </li>
+        <li>
+          <a href="pages/about-us/index.html" class="nav-links">About us</a>
+        </li>
+        <li>
+          <a href="pages/contact-us/index.html" class="nav-links">Contact us</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!--____________________
+  hero section
+  _____________________-->
+  <section id="home">
+
+    <div class="home-black-bg"></div>
+
+    <div class="home-main">
+
+      <div class="home-desc">
+        <h1>
+          Uncover Limitless Book Tales
+        </h1>
+        <p>
+          Explore captivating stories across genres, from timeless classics to contemporary favorites. Dive into a world of endless adventures, where every page turns into a new discovery, and find your next great read today.
+        </p>
+        <button>
+          <a href="#">
+            Shop now
+          </a>
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--____________________
+  best sell
+  _____________________-->
+  <section id="best-sellers">
+
+    <h2 class="section-h2">
+      Top Picks of the Month
+      <hr/>
+    </h2>
+
+    <div class="all-catagories">
+      <a href="#" class="catagory-name catagory-name-active">All</a>
+      <a href="#" class="catagory-name">Fiction</a>
+      <a href="#" class="catagory-name">Non-Fiction</a>
+      <a href="#" class="catagory-name">Mystery</a>
+      <a href="#" class="catagory-name">Romance</a>
+      <a href="#" class="catagory-name">Sci-Fi</a>
+      <a href="#" class="catagory-name">Fantasy</a>
+      <a href="#" class="catagory-name">Biographies</a>
+      <a href="#" class="catagory-name">Children's Books</a>
+    </div>
+
+    <div class="best-sellers">
+
+      <div class="best-seller-showcase best-seller-01">
+
+        <!-- showcase-1 -->
+
+        <img src="images/book-1.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Yuval Noah Harari
+          </p>
+          <p class="book-name">
+            Sapiens
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 50% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-02">
+
+        <!-- showcase-2 -->
+
+        <img src="images/book-2.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Viktore Frankl
+          </p>
+          <p class="book-name">
+            Man's Search For Meaning
+          </p>
+          <p class="cost">
+            $14.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 25% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-03">
+
+        <!-- showcase-3 -->
+
+        <img src="images/book-3.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Haemin Sunim
+          </p>
+          <p class="book-name">
+            Things You Can See
+          </p>
+          <p class="cost">
+            $10.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 30% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-04">
+
+        <!-- showcase-4 -->
+
+        <img src="images/book-4.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Erik Jorgenson
+          </p>
+          <p class="book-name">
+            Almanak Of Naval Ravikant
+          </p>
+          <p class="cost">
+            $15.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 50% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-05">
+
+        <!-- showcase-5 -->
+
+        <img src="images/book-5.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Chris Anderson
+          </p>
+          <p class="book-name">
+            Ted Talks
+          </p>
+          <p class="cost">
+            $13.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 45% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-06">
+
+        <!-- showcase-6 -->
+
+        <img src="images/book-6.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Brian Tracy
+          </p>
+          <p class="book-name">
+            Eat That Frog
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 55% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-07">
+
+        <!-- showcase-7 -->
+
+        <img src="images/book-7.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            James Clear
+          </p>
+          <p class="book-name">
+            Atomic Habits
+          </p>
+          <p class="cost">
+            $10.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 10% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-08">
+
+        <!-- showcase-8 -->
+
+        <img src="images/book-8.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Sun Tzu
+          </p>
+          <p class="book-name">
+            The Art Of War
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 50% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-09">
+
+        <!-- showcase-9 -->
+
+        <img src="images/book-9.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Gracia & Miralles
+          </p>
+          <p class="book-name">
+            IKIGAI
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 20% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-10">
+
+        <!-- showcase-10 -->
+
+        <img src="images/book-10.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Stephen Hawking
+          </p>
+          <p class="book-name">
+            A Brief History Of Time
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 50% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-11">
+
+        <!-- showcase-11 -->
+
+        <img src="images/book-11.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Don Miguel Ruiz
+          </p>
+          <p class="book-name">
+            The Four Arguments
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 50% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+      <div class="best-seller-showcase best-seller-12">
+
+        <!-- showcase-12 -->
+
+        <img src="images/book-12.jpg" alt="book-image" class="best-seller-showcase-img">
+
+        <div class="book-name-cost">
+          <p class="author">
+            Paulo Coelho
+          </p>
+          <p class="book-name">
+            The Alchemist
+          </p>
+          <p class="cost">
+            $14.00
+          </p>
+        </div>
+
+        <div class="showcase-hover">
+
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+
+          <p class="off-notice">
+            Upto 25% off
+          </p>
+
+        </div>
+
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--____________________
+  off section
+  _____________________-->
+  <section id="off">
+
+    <div class="off-desc">
+      <p class="off-p-1">
+        Explore Our Collection
+      </p>
+      <h3 class="off-h3">
+        Limited Time Discounts
+      </h3>
+      <p class="off-p-2">
+        Get up to 75% off
+      </p>
+      <button>
+        <a href="#">
+          Shop now
+        </a>
+      </button>
+    </div>
+
+  </section>
+
+    <!--____________________
+  daily deals
+  _____________________-->
+  <section id="daily-deals">
+
+    <h2 class="section-h2">
+      Daily deals
+      <hr/>
+    </h2>
+
+    <div class="daily-deals-showcase">
+
+      <div class="best-seller-showcase best-seller-05">
+
+        <!-- showcase-1 -->
+  
+        <img src="images/book-5.jpg" alt="book-image" class="best-seller-showcase-img">
+  
+        <div class="book-name-cost">
+          <p class="author">
+            Chris Anderson
+          </p>
+          <p class="book-name">
+            Ted Talks
+          </p>
+          <p class="cost">
+            $13.00
+          </p>
+        </div>
+  
+        <div class="showcase-hover">
+  
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+  
+        </div>
+
+        <p class="daily-deals-off">
+          Upto 45% off
+        </p>
+  
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+  
+      </div>
+  
+      <div class="best-seller-showcase best-seller-06">
+  
+        <!-- showcase-2 -->
+  
+        <img src="images/book-6.jpg" alt="book-image" class="best-seller-showcase-img">
+  
+        <div class="book-name-cost">
+          <p class="author">
+            Brian Tracy
+          </p>
+          <p class="book-name">
+            Eat That Frog
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+  
+        <div class="showcase-hover">
+  
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+  
+        </div>
+
+        <p class="daily-deals-off">
+          Upto 55% off
+        </p>
+  
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+  
+      </div>
+  
+      <div class="best-seller-showcase best-seller-07">
+  
+        <!-- showcase-3 -->
+  
+        <img src="images/book-7.jpg" alt="book-image" class="best-seller-showcase-img">
+  
+        <div class="book-name-cost">
+          <p class="author">
+            James Clear
+          </p>
+          <p class="book-name">
+            Atomic Habits
+          </p>
+          <p class="cost">
+            $10.00
+          </p>
+        </div>
+  
+        <div class="showcase-hover">
+  
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+  
+        </div>
+
+        <p class="daily-deals-off">
+          Upto 10% off
+        </p>
+  
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+  
+      </div>
+  
+      <div class="best-seller-showcase best-seller-08">
+  
+        <!-- showcase-4 -->
+  
+        <img src="images/book-8.jpg" alt="book-image" class="best-seller-showcase-img">
+  
+        <div class="book-name-cost">
+          <p class="author">
+            Sun Tzu
+          </p>
+          <p class="book-name">
+            The Art Of War
+          </p>
+          <p class="cost">
+            $12.00
+          </p>
+        </div>
+  
+        <div class="showcase-hover">
+  
+          <a href="#">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+  
+        </div>
+
+        <p class="daily-deals-off">
+          Upto 50% off
+        </p>
+  
+        <p class="showcase-see-more">
+          <a href="#">
+            See more...
+          </a>
+        </p>
+  
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--____________________
+  gift section
+  _____________________-->
+  <section id="gift-section">
+
+    <div class="gift-section-desc">
+
+      <h3>
+        Perfect Gifts for Book Lovers
+      </h3>
+      <p>
+        Find the Ideal Book for Every Occasion
+      </p>
+      <button>
+        <a href="#">
+          Shop now
+        </a>
+      </button>
+
+    </div>
+
+  </section>
+
+  <!--____________________
+  newsletter
+  _____________________-->
+  <section id="newsletter">
+
+    <div class="newsletter-div newsletter-desc">
+      <h3>
+        Subscribe to our newsletter
+      </h3>
+      <p>
+        Enter your email address to receive regular updates, as well as news on upcoming events and specific offer.
+      </p>
+    </div>
+
+    <div class="newsletter-div newsletter-form">
+      <input type="e-mail" placeholder="Email Address"/>
+      <button>
+        Subscribe
+      </button>
+    </div>
+
+  </section>
+
+  <!--____________________
+  footer
+  _____________________-->
+  <footer>
+
+    <div class="footer-main">
+
+      <div class="footer-div">
+
+        <div class="head-logo">
+          <h1>
+            <a href="#home" style="text-decoration: none; text-shadow: -1px -1px 0 #fff,  1px -1px 0 #fff, -1px  1px 0 #fff, 1px  1px 0 #fff;">
+              Book
+              <span>
+                Aura
+              </span>
+            </a>
+          </h1>
+        </div>
+
+        <div class="footer-address">
+          <p>3900 Feni Sadar</p>
+          <p>+12345678912</p>
+          <p>bookaura@gmail.com</p>
+          <p><a href="#home">www.bookaura.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-div footer-div-links">
+        <p>
+          <a href="#">Help</a>
+        </p>
+        <a href="#">Search</a>
+        <a href="#">Help</a>
+        <a href="#">Information</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Shipping information</a>
+      </div>
+
+      <div class="footer-div footer-div-links">
+        <p>
+          <a href="#">Support</a>
+        </p>
+        <a href="#">Search terms</a>
+        <a href="#">Advance search</a>
+        <a href="#">Helps & Faqs</a>
+        <a href="#">Store Location</a>
+        <a href="#">Orders & Returns</a>
+      </div>
+
+      <div class="footer-div footer-div-links">
+        <p>
+          <a href="#">Information</a>
+        </p>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Carrers</a>
+        <a href="#">Refund & Returns</a>
+        <a href="#">Deliveries</a>
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,268 @@
+:root {
+  --mint50: #f3fcf1;
+  --mint100: #e3f9df;
+  --mint200: #b3eda9;
+  --mint300: #9be68f;
+  --mint400: #68d157;
+  --mint500: #41b730;
+  --mint600: #319722;
+  --mint700: #29771e;
+  --mint800: #245e1d;
+  --mint900: #1e4e19;
+  --mint950: #0b2a09;
+
+  --size01: 0.4rem;
+  --size02: 0.8rem;
+  --size03: 1.2rem;
+  --size04: 1.6rem;
+  --size05: 2rem;
+  --size06: 2.4rem;
+  --size07: 2.8rem;
+  --size08: 3.2rem;
+  --size09: 3.6rem;
+  --size10: 4rem;
+  --size11: 4.4rem;
+  --size12: 4.8rem;
+  --size13: 5.2rem;
+  --size14: 5.6rem;
+  --size15: 6rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Advent Pro", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+}
+
+/*____________________
+header
+_____________________*/
+header {
+  height: 80px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.head-box {
+  width: 200px;
+}
+
+.head-box-1 a {
+  font-size: var(--size04);
+  margin-right: 8px;
+  color: var(--mint950);
+}
+
+.head-box-1 a i {
+  color: var(--mint600);
+  font-size: var(--size06);
+}
+
+.head-box-2 {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.head-box-2 button {
+  width: 80px;
+  height: 40px;
+  font-size: var(--size04);
+  font-weight: bold;
+}
+
+.log-btn {
+  border: 2px solid var(--mint600);
+  background-color: #fff;
+}
+.log-btn a {
+  color: var(--mint600);
+}
+
+.sign-btn {
+  margin-left: 8px;
+  border: none;
+  background-color: var(--mint600);
+}
+.sign-btn a {
+  color: #fff;
+}
+
+.head-logo {
+  font-family: "Advent Pro", sans-serif;
+  font-size: var(--size05);
+}
+
+.head-logo a {
+  color: var(--mint950);
+}
+
+.head-logo a span {
+  color: var(--mint600);
+}
+
+/*____________________
+navbar
+_____________________*/
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: var(--mint200);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar li {
+  height: 100%;
+  position: relative;
+}
+
+nav ul {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+}
+
+.nav-links {
+  height: 100%;
+  width: 120px;
+  text-decoration: none;
+  font-size: var(--size04);
+  color: var(--mint950);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+
+.nav-links:hover {
+  color: var(--mint600);
+  letter-spacing: 1px;
+}
+
+.catagories-dropdown {
+  width: 0;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 1px solid var(--mint950);
+  background-color: var(--mint100);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in;
+}
+.catagories:hover .catagories-dropdown {
+  opacity: 1;
+  visibility: visible;
+  width: 200px;
+  height: 300px;
+  bottom: -300px;
+  position: absolute;
+}
+
+.cata-drop-links {
+  text-decoration: none;
+  font-size: 0;
+  color: var(--mint950);
+  font-weight: 500;
+  padding-left: 16px;
+  transition: all 0.5s ease-in;
+  transition: color 0.3s ease-in;
+  transition: letter-spacing 0.3s ease-in;
+}
+
+.cata-drop-links:hover {
+  color: var(--mint600);
+  letter-spacing: 1px;
+}
+
+.catagories:hover .cata-drop-links {
+  font-size: var(--size04);
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/*____________________
+footer
+_____________________*/
+footer {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-main {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-address {
+  margin-top: 20px;
+  font-size: var(--size04);
+  color: var(--mint50);
+}
+.footer-address p {
+  margin-bottom: 8px;
+}
+.footer-address a {
+  color: var(--mint50);
+}
+.footer-div {
+  width: 300px;
+  height: 300px;
+  margin: 50px 0;
+}
+.footer-div-links a {
+  text-decoration: none;
+  color: var(--mint50);
+}
+.footer-div-links p {
+  font-size: var(--size05);
+  font-weight: 700;
+}
+
+.footer-div-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: var(--size04);
+}
